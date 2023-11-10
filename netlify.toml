@@ -1,0 +1,5 @@
+[build]
+  functions = "functions"  # Ruta a la carpeta de funciones
+
+[build.environment]
+  NODE_VERSION = "14"  # Puedes ajustar la versión de Node.js según tus necesidades
