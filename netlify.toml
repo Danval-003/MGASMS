@@ -1,5 +1,6 @@
 [build]
-  functions = "functions"  # Ruta a la carpeta de funciones
+  command = "npm install && npm run build"  # Ajusta según las necesidades de tu proyecto
+  functions = "functions"
 
 [build.environment]
   NODE_VERSION = "14"  # Puedes ajustar la versión de Node.js según tus necesidades
